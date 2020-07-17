@@ -19,7 +19,22 @@ function woodCalculator(chair, table, bed) {
 
 
 // --------------------brickCalculator---------------
-
+function brickCalculator(bricks){
+        if(bricks >= 38000)
+        {
+            return(1000 * 15);
+        }
+        else if( bricks <= 16000)
+        {
+            return((1000 * 12) + 15000)
+        }
+        else (bricks == 37000)
+        {
+            return((1000 * 10) + 15000 + 12000)
+        }
+    }
+    var result = brickCalculator(37000);
+    
 
 // --------------------tinyfriend---------------
 var shortName = ['michael', 'minhaz', 'mobin', 'shofiqul', 'jalal', 'dpk'];
